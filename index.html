@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Título de la página web -->
+      <title>Riartdigos - Deseño e desarrollo web profesional</title>
+      <!-- Referencia a bootstrap -->
+      <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Carga de la fuente "Font-Awesome" -->
+      <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+      <!-- Carga del estilo del "lightbox" -->
+      <link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
+      <!-- Carga del estilo del "text-rotator" -->
+      <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
+      <!-- Carga del estilo principal de la página -->
+      <link href="css/estilo.css" rel="stylesheet">
+      <!-- Carga del estilo de las animaciones sacadas de animate.css -->
+      <link href="assets/animate.css/animate.css" rel="stylesheet">
+      <!-- Favicon propio de la página web -->
+      <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+      <!--
+            Esta página ha sido creada por Samuel Vila Riádigos en 2018. Se han utilizado funciones de HTML5, CSS3, Bootstrap, jQuery y algún que otro asset hecho por terceros para una mejor visualización de la página.
+                                                      Se trata de una página portfolio, dónde se hablará sobre mi y sobre lo que hago y a lo que me dedico.
+                    Para las clases y ids de los elementos introducidos en la página se ha intentado utilizar el idioma castellano (excepto en los que dependen de scripts de terceros como Bootstrap y demás).
+      -->
+   </head>
+   <body id="top">
+      <!-- Reservado para la precarga de la web. -->
+      <div id="precarga"></div>
+
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "HEADER"
+                                                                                =========================== -->
+
+      <header id="inicio">
+         <!-- Menú hamburguer -->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="menu-contenedor">
+                  <nav class="menu">
+                     <!-- Links a las categorías -->
+                     <div class="lista-iconos">
+                        <a href="index.html#inicio"><p class="oculto">Inicio</p><i class="fa fa-fw fa-home"></i><span>Inicio</span></a>
+                        <a href="index.html#sobremin"><p class="oculto">Sobre min</p><i class="fa fa-fw fa-quote-left"></i><span>Sobre min</span></a>
+                        <a href="index.html#servizo"><p class="oculto">Servizos</p><i class="fa fa-fw fa-globe"></i><span>Servizos</span></a>
+                        <a href="index.html#portfolio"><p class="oculto">Portfolio</p><i class="fa fa-fw fa-picture-o"></i><span>Portfolio</span></a>
+                        <a href="index.html#contacto"><p class="oculto">Contacto</p><i class="fa fa-fw fa-envelope-o"></i><span>Contacto</span></a>
+                        <a href="index.html"><p class="oculto">Curriculum</p><i class="fa fa-fw fa-rss"></i><span>Currículo</span></a>
+                     </div>
+                  </nav>
+               </div>
+               <!-- Icono utilizado como menú -->
+               <button class="menu-boton" id="menu-boton-abierto"></button>
+            </div>
+         </div>
+         <!-- Imagen de cabecera -->
+         <section class="hero" id="hero">
+            <div class="container">
+               <!-- Texto de la cabecera -->
+               <div class="row">
+                  <div class="col-md-8 col-md-offset-1 titulo">
+                     <h1 class="animacion fadeInDown">
+                        R<span id="riart">i</span>ART<br/>
+                        <span>D<span id="digos">i</span>gos</span>
+                     </h1>
+                     <!-- Palabras que aparecerán con el fade (configuración al final de este documento) -->
+                     <h2 class="animacion fadeInUp delay-05s"><span class="rotate">Desarrollador web,Diseñador web</span></h2>
+                  </div>
+               </div>
+               <!-- Botón "leer máis" -->
+               <div class="row">
+                  <div class="col-md-6 col-md-offset-3 texto-centrado">
+                     <a href="index.html#sobremin" class="scroll wow fadeInUp delay-5s ">
+                        <p>COÑECEME</p>
+                        <p class="scroll--flecha">
+                           <picture>
+                              <source media="(min-width: 1280px)" srcset="img/flecha-negra.png">
+                              <img src="img/flecha-blanca.png" alt="Flecha de navegación" style="width:auto;">
+                           </picture>
+                        </p>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <audio autoplay>
+              <source src="audio/musica.mp3" type="audio/mpeg">
+            O teu navegador non soporta audios.
+         </audio>
+      </header>
+                                                                                <!-- ==========================
+                                                                                      FIN SECCIÓN "HEADER"
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "SOBRE MIN"
+                                                                                =========================== -->
+
+      <section class="intro texto-centrado section-relleno color-fondo" id="sobremin">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8 col-md-offset-2 ref1">
+                  <!-- Titulo de la sección -->
+                  <h1 class="arrow">Un pouco <span>sobre</span> min</h1>
+                  <!-- Contenido de la sección -->
+                  <p>Son un desarrollador e deseñador web chamado Samuel Vila e estoume especializando actualmente no Deseño e Desenvolvemento Web FrontEnd. Maquetando en HTML5 con CSS3 basado nos estándares W3C e programando de xeito amigable a nivel de SEO on-page, intento sacar o máximo partido a ferramentas como <a class="enlace_especial" href="https://www.sublimetext.com/">Sublime</a>, <a class="enlace_especial" href="https://code.visualstudio.com/">Visual Studio Code</a> ou <a class="enlace_especial" href="https://www.adobe.com/es/products/photoshop.html">Photoshop</a>. Tamén estou capacitado para realizar traballos de identidade gráfica ou corporativa e son un apaixonado da música e a fotografía.</p>
+                  <p>Considerome bastante autodidacta e moi autocrítico cos meus traballos. Actualmente estou rematando un ciclo superior de desarrollo web e estou comezando a crecer a nivel profesional como diseñador web freelancer á par que me empapo día tras día de novos coñecementos relacionados coa programación tanto web como multiplataforma.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+                                                                                <!-- ==========================
+                                                                                    FIN SECCIÓN "SOBRE MIN"
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "SERVIZOS"
+                                                                                          PRINCIPAL
+                                                                                =========================== -->
+
+      <section class="caracteristicas texto-centrado section-relleno" id="servizo">
+         <div class="container">
+            <!-- Titulo de la sección -->
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="arrow">Servizos</h1>
+               </div>
+            </div>
+            <!-- Contenido de la sección -->
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="servizos">
+                    <!-- Servicio 1 -->
+                     <div class="col-md-4 ref2 servizo">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/diseno-web.png" alt="Icono de diseño web"/>
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño web</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Desde o concepto e formulación pasando polo deseño e o desenvolvemento, ata o lanzamento do produto final. Estándares, compatibilidad entre navegadores e as últimas tendencias.
+                        </p>
+                     </div>
+                     <!-- Servicio 2 -->
+                     <div class="col-md-4 ref2 servizo delay-05s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/wordpress.png" alt="Icono de Wordpress" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño web Wordpress</h2>
+                        <!-- Descripción do servizo -->
+                        <p>WordPress é o CMS máis usado do mundo. Por iso estou especializado no seu uso e desenvolvemento personalizado modificando persoais ou creando temas desde cero.
+                        </p>
+                     </div>
+                     <!-- Servicio 3 -->
+                     <div class="col-md-4 ref2 servizo delay-1s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/responsive.png" alt="Icono de responsive" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño web para móviles</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Hoxe, responsive design xa é un requisito indispensable. Os meus deseños sempre son adaptables a todos os dispositivos actuais e futuros, seguindo sempre as últimas tendencias.
+                        </p>
+                     </div>
+                      <!-- Servicio 4 -->
+                     <div class="col-md-4 ref2 servizo delay-15s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/optimizacion.png" alt="Icono de optimización" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Optimizar velocidade de carga</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Optimizarei a túa páxina web e a velocidade da túa WordPress para ofrecer a mellor experiencia de usuario posible.
+                        </p>
+                     </div>
+                      <!-- Servicio 5 -->
+                     <div class="col-md-4 ref2 servizo delay-2s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/mantenimiento.png" alt="Icono de mantenimiento" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Mantemento web</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Reláxate. Actualizo, manteño, modifico ou corrixo o que necesites e gestiono totalmente o teu sitio web para que ti só teñas que preocuparte polo crecemento do teu negocio.
+                        </p>
+                     </div>
+                      <!-- Servicio 6 -->
+                     <div class="col-md-4 ref2 servizo delay-25s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/tienda.png" alt="Icono de tienda" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño de tendas online</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Estudaremos xuntos as necesidades de personalización e funcionalidades para adaptalas a unha solución que alcance os obxectivos que a túa marca propóñase no área de comercio electrónico.
+                        </p>
+                     </div>
+                     <!-- Servicio 7 -->
+                     <div class="col-md-4 ref2 servizo delay-3s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/logo.png" alt="Icono de logotipado" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño de logotipos</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Asegúrate de que os teus clientes saben que existes cun logotipo que destaque sobre a competencia, que transmita os valores da empresa e que sexa memorable.
+                        </p>
+                     </div>
+                     <!-- Servicio 8 -->
+                     <div class="col-md-4 ref2 servizo delay-35s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/identidad.png" alt="Icono de identidad" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Identidade corporativa</h2>
+                        <!-- Descripción do servizo -->
+                        <p>Definición da marca a través de nomes, deseño do logotipo, imaxe visual e comunicación creativa.
+                        </p>
+                     </div>
+                     <!-- Servicio 9 -->
+                     <div class="col-md-4 ref2 servizo delay-4s">
+                        <div class="icono">
+                           <!-- Icono do servizo -->
+                           <img src="img/servicios/diseno-grafico.png" alt="Icono de diseño gráfico" />
+                        </div>
+                        <!-- Título do servizo -->
+                        <h2>Deseño gráfico</h2>
+                        <!-- Descripción do servizo -->
+                        <p>O meu traballo como diseñador gráfico ten un papel importante na promoción de produtos e servizos para conseguir destacar da competencia.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="clearfix"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+                                                                                <!-- ==========================
+                                                                                      FIN SECCIÓN "SERVIZOS"
+                                                                                          PRINCIPAL
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                        SECCIÓN "SERVIZOS"
+                                                                                          SECUNDARIA
+                                                                                =========================== -->
+<section class="section-relleno gradiente-gris">
+   <div class="container">
+   <h3 class="supertitulo">Aprender, adquirir, coñecer...</h3>
+   <h4 class="pretitulo">Un bo coñecemento do mercado é primordial para obter éxito.</h4>
+   <video class="centrado" width="720" height="480" controls>
+     <source src="video/info.mp4" type="video/mp4">
+   O teu navegador non soporta o tag de video.
+   </video>                                                           
+   </div>
+</section>
+                                                                                
+
+                                                                                 <!-- ==========================
+                                                                                      FIN SECCIÓN "SERVIZOS"
+                                                                                          PRINCIPAL
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                        SECCIÓN "SERVIZOS"
+                                                                                          TERCIARIA
+                                                                                =========================== -->
+
+      <div class="container-fluid">
+         <!-- Sobre os meus servizos 1 -->
+         <div class="row color-fondo">
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="brainstorm"></div>
+            </div>
+            <div class="col-md-6 sobremin-texto ref3">
+               <!-- Título -->
+               <h5>Brainstorming</h5>
+               <h6><span>01.</span> Documentación e inspiración</h6>
+               <hr class="alineado-dereita"/>
+               <!-- Contenido -->
+               <p>Como dicía Steve Jobs, o deseño non é só a aparencia ou as sensacións que produce algo, si non o ben que funciona ese algo. Nesta primeira fase, e tras escoitar as necesidades do proxecto, fanse preguntas estratéxicas para coñecer a túa marca e obxectivos, a competencia directa e indirecta, o mercado e outros aspectos fundamentais para o éxito do proceso. O obxectivo principal nesta fase é entender o que a súa audiencia demanda e crear un produto que responda a esas necesidades transmitindo á súa vez os valores da marca.</p>
+               <br>
+            </div>
+         </div>
+         <!-- Sobre os meus servizos 2 -->
+         <div class="row">
+            <div class="col-md-6 sobremin-texto ref3 delay-1s">
+               <!-- Título -->
+               <h5>A estratexia</h5>
+               <h6><span>02.</span> Arquitectura da información + contido</h6>
+               <hr class="alineado-izquierda"/>
+               <!-- Contenido -->
+               <p>Aquí comezamos a tomar decisións importantes que determinarán o éxito ou o fracaso do teu produto ou servizo en internet. Só creando unha experiencia de usuario robusta e efectiva conséguense alcanzar as metas establecidas. Tras comprender como os seus visitantes chegarán e comportaranse no teu novo sitio, pasamos a traballar o mapa do sitio ou sitemap. Agrupar, etiquetar e asignar a xerarquía da arquitectura da información para desenvolver unha navegación eficaz enfocada non só á Experiencia de Usuario (UX) si non tamén ao posicionamiento en buscadores (SEO). Só unha vez habemos ter en conta todo isto, é cando nos encargaremos do contido. O deseño sen mensaxes claras non xera retención nin retorno do investimento (ROI). Repartirei as diferentes palabras crave (keywords) nas que se basea o proxecto en diferentes landing pages ou páxinas de aterrizaje para maximizar a conversión dos visitantes que cheguen a través de google ou redes sociais.</p>
+               <br>
+            </div>
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="arquitectura"></div>
+               <!-- sobremin image 2 -->
+            </div>
+         </div>
+         <!-- Sobre os meus servizos 3 -->
+         <div class="row color-fondo">
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="creatividad"></div>
+               <!-- sobremin image 3 -->
+            </div>
+            <div class="col-md-6 sobremin-texto ref3 delay-15s">
+               <!-- Título -->
+               <h5>Prototipo (wireframe)</h5>
+               <h6><span>03.</span> Creatividad</h6>
+               <hr class="alineado-dereita"/>
+               <!-- Contenido -->
+               <p>Unha vez que se aproba o sitemap, construirei os planos interactivos para a túa nova presenza online. Isto permite mostrar un boceto do aspecto final que terá cada páxina axudando así á visualización do funil de vendas que se usará para convertir a túa audiencia. Unha vez aprobados os bocetos, combinarei toda a información obtida ata a data para crear deseños creativos que situarán a túa marca como a referencia do sector e multiplicarán as conversiones conseguidas ata a data.</p>
+               <br> 
+            </div>
+         </div>
+         <!-- Sobre os meus servizos 4 -->
+         <div class="row">
+            <div class="col-md-6 sobremin-texto ref3 delay-2s">
+               <!-- Título -->
+               <h5>Implementación</h5>
+               <h6><span>04.</span> Desenvolvemento de funcionalidades</h6>
+               <hr class="alineado-izquierda"/>
+               <!-- Contenido -->
+               <p>Chega o momento de facer os soños realidade. Como desarrollador web, tomarei todas as pezas deseñadas, incluído as recursos obtidos dalgún banco de imaxes gratis e aprobadas anteriormente para facelas realidade mediante unha programación limpa, escalable e seguindo os estándares de calidade actuais. O meu obxectivo como desarrollador web é crear un sitio incrible que funcione perfectamente en calquera navegador, resolución de pantalla e dispositivo móbil.</p>
+               <br>
+            </div>
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="funcionalidad"></div>
+            </div>
+         </div>
+         <!-- Sobre os meus servizos 5 -->
+         <div class="row color-fondo">
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="compatibilidad"></div>
+               <!-- sobremin image 2 -->
+            </div>
+            <div class="col-md-6 sobremin-texto ref3 delay-25s">
+               <!-- Título -->
+               <h5>A proba de balas</h5>
+               <h6><span>05.</span> Control de calidade e compatibilidades</h6>
+               <hr class="alineado-dereita"/>
+               <!-- Contenido -->
+               <p>O obxectivo de todas as miñas creacións é que funcionen en todos os navegadores aos que o cliente queira dar soporte. Ademais, o resultado sométese a varios tests con diferentes resolucións de pantalla e diferentes dispositivos móbiles para entregar unha versión sen defectos.</p>
+               <br>
+            </div>
+         </div>
+         <!-- Sobre os meus servizos 6 -->
+         <div class="row">
+            <div class="col-md-6 sobremin-texto ref3 delay-3s">
+               <!-- Título -->
+               <h5>Posta en marcha</h5>
+               <h6><span>06.</span> Revisión final e lanzamento</h6>
+               <hr class="alineado-izquierda"/>
+               <!-- Contenido -->
+               <p>A gran inauguración da nosa obra mestra. Durante esta fase final, presentareiche o traballo terminado para a túa aprobación, e unha vez deámoslle o visto bo, lanzaremos o teu novo proxecto ao ciber espazo para que alcance a gloria que merece. ¡Viva!</p>
+               <br> 
+            </div>
+            <div class="col-md-6 sinpadding">
+               <!-- Imagen de la sección -->
+               <div class="sobremin-imagen" id="release"></div>
+               <!-- sobremin image 3 -->
+            </div>
+         </div>
+      </div>
+
+                                                                                <!-- ==========================
+                                                                                      FIN SECCIÓN "SERVIZOS"
+                                                                                          TERCIARIA
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "CONTRÁTAME"
+                                                                                =========================== -->
+
+      <section class="section-relleno gradiente" id="contratame">
+         <div class="container">
+            <div class="row"> 
+               <div class="col-md-3">
+                  <p class="pretitulo">Creativo e profesional</p>
+                  <h2 class="supertitulo ref5">¿Por qué deberías contratarme como deseñador de páxinas web?</h2>
+               </div>
+
+               <article class="col-md-6">
+               <p class="pequeno">Si estás buscando aumentar o número de persoas que visitan a páxina do teu negocio ou proxecto para despois convertir eses visitantes en clientes ou lectores habituais, chegaches ao lugar indicado.</p>
+               <p class="pequeno">Non importa cal sexa o obxectivo do teu proxecto ou empresa, hoxe en día é imprescindible ter unha presenza online profesional que consiga cumprir os obxectivos en piloto automático.</p>
+               <p class="pequeno"> O meu traballo como diseñador web consiste en construír un portal que atraia ao teu público obxectivo a través das redes sociais e os buscadores, para despois convertelos en clientes ofrecéndolles unha experiencia de usuario sublime e unha velocidade de carga envidiable para facilitar deste xeito a conversión.</p>
+               <p class="pequeno">Si estás pensando en crear un novo proxecto, ou darlle un aire profesional a un xa existente, non dubides en poñerche en contacto comigo sen compromiso.</p>
+               <br />
+               <a href="#contacto" title="Contacto" class="boton-transparente"> Contactar ahora </a>
+               <a href="http://www.riartdigos.com" title="Currículum web" class="curriculum">Ver o meu currículo →</a>
+               </article>
+               <figure class="col-md-3">
+                  <img src="img/porque.jpg" alt="Samuel Vila Riadigos - Desarrollador web" title="Samuel Vila Riadigos - Desarrollador web" class="imagen-contratame" />
+               </figure>
+            </div><!--row-->
+         </div>
+      </section>
+
+                                                                                <!-- ==========================
+                                                                                    FIN SECCIÓN "CONTRÁTAME"
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                        SECCIÓN "PORTFOLIO"
+                                                                                =========================== -->
+
+      <section class="portafolio texto-centrado section-relleno" id="portfolio">
+         <div class="container-fluid">
+            <!-- Titulo de la sección  -->
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="arrow">Últimos <span>proxectos</span></h1>
+               </div>
+            </div>
+            <br><br>
+            <!-- Contenedor con los proyectos del portfolio -->
+            <div>
+               <div>
+                  <ul class="contenedor-portfolio">
+                     <li>
+                        <!-- ENTRADA 1 -->
+                        <div class="col-md-4 ref4">
+                           <div class="clearfix">
+                              <div>
+                                 <!-- Imagen de la entrada -->
+                                 <figure class="imaxeweb"><img src="img/portfolio/charangabbmas.gif" alt="Página web de la Charanga BB+"/>
+                                   <figcaption>
+                                     <h2>VISITAR WEB</h2>
+                                     <p>www.charangabbmas.com</p>
+                                   </figcaption><a href="http://www.charangabbmas.com"><p class="oculto">www.charangabbmas.com</p></a>
+                                 </figure>
+                              </div>
+                           </div>
+                           <br>
+                           <!-- Titulo de la entrada -->
+                           <h2>Charanga BB+</h2>
+                           <!-- Descripción de la entrada -->
+                           <p>A Charanga BB+ é unha agrupación musical que se podería resumir en animación e diversión. Tras un proceso de brainstorming, saleu a idea de basar o diseño da páxina web nun estilo único e divertido. Unha vez se tivo clara a idea, todo o proceso foi como a seda, adaptando o banner principal ao logo da propia charanga e creando desde cero un tema de WordPress, cumplindo a medida as necesidades do proxecto.</p>
+                        </div>
+                        <!-- ENTRADA 2 -->
+                        <div class="col-md-4 ref4 delay-05s">
+                           <div class="clearfix">
+                              <div>
+                                 <!-- Imagen de la entrada -->
+                                 <figure class="imaxeweb"><img src="img/portfolio/altoasalto.gif" alt="Página web de Alto Asalto"/>
+                                   <figcaption>
+                                     <h2>VISITAR WEB</h2>
+                                     <p>www.altoasalto.es</p>
+                                   </figcaption><a href="http://www.altoasalto.es"><p class="oculto">www.altoasalto.es</p></a>
+                                 </figure>
+                              </div>
+                           </div>
+                           <br>
+                           <!-- Titulo de la entrada -->
+                           <h2>Alto Asalto</h2>
+                           <!-- Descripción de la entrada -->
+                           <p>Grupo de rap hiperdimensional nado en Santiago de Compostela. Ocuridade: o termo principal utilizado no deseño da páxina. Creada en unha única páxina que busca adentrar á persoa que a vista no máis fondo e lúgubre Hades, coa colaboración de <a href="http://alcrego.tumblr.com/">A. L. Crego</a> en partes do deseño. Finalmente, realizouselle un traballo de posicionamento SEO e unha optimización deste proxecto creado desde cero (tema propio) en WordPress.</p>
+                        </div>
+                        <!-- ENTRADA 3 -->
+                        <div class="col-md-4 ref4 delay-1s">
+                           <div class="clearfix">
+                              <div>
+                                 <!-- Imagen de la entrada -->
+                                 <figure class="imaxeweb"><img src="img/portfolio/lsrp.png" alt="Página web de Los Santos - Juego de Rol"/>
+                                   <figcaption>
+                                     <h2>VISITAR WEB</h2>
+                                     <p>www.ls-rp.es</p>
+                                   </figcaption><a href="http://www.ls-rp.es"><p class="oculto">www.ls-rp.es</p></a>
+                                 </figure>
+                              </div>
+                           </div>
+                           <br>  
+                           <!-- Titulo de la entrada -->  
+                           <h2>Los Santos - Juego de Rol</h2>
+                           <!-- Descripción de la entrada -->
+                           <p>Comunidad de xogo con dous servidores, ambos, utilizando modificacións multixogador dos videoxogos de PC "GTA: San Andreas" e "GTA: V" respectivamente. Formulouse un novo modo de <a href="https://samp.ls-rp.es/showthread.php?84248-Vayamos-a-lo-b%E1sico-%BFQu%E9-es-el-rol">xogo de rol</a> único e orixinal, utilizando a linguaxe <a href="https://www.compuphase.com/pawn/pawn.htm">PAWN</a> para o <a href="https://www.sa-mp.com/">SA:MP</a> e a linguaxe C# e Javascript para o <a href="https://gt-mp.net/">GT:MP</a>. Máis de 100.000 líneas de código escritas para esta comunidade de máis de 60.000 usuarios rexistrados.</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+
+                                                                                <!-- ==========================
+                                                                                        FIN SECCIÓN "PORTFOLIO"
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "CONTACTO"
+                                                                                =========================== -->
+
+      <section class="texto-centrado section-relleno seccionContacto" id="contacto">
+         <!-- Botón para ir arriba -->
+         <a href="index.html#top" class="boton-top"><p class="oculto">Ir arriba</p><i class="fa fa-chevron-up"></i></a>
+         <div class="container">
+            <!-- Título de la sección -->
+            <div class="row">
+               <div class="col-md-12">
+                  <h1 class="arrow">Escribe<span>me</span> algo!</h1>
+               </div>
+            </div>
+            <div class="row contacto-detalles">
+               <!-- Caja de dirección -->
+               <div class="col-md-4">
+                  <div class="div-sombra div-hover">
+                     <h2><i class="fa fa-globe"></i><span>Páxina web</span></h2>
+                     <p><a href="http://www.riartdigos.com">www.riartdigos.com</a></p>
+                  </div>
+               </div>
+               <!-- Caja de número de teléfono -->
+               <div class="col-md-4">
+                  <div class="div-sombra div-hover">
+                     <h2><i class="fa fa-mobile"></i><span>Teléfono</span></h2>
+                     <p><a href="tel:669120013">+34 669 12 00 13</a></p>
+                  </div>
+               </div>
+               <!-- Caja de e-mail -->
+               <div class="col-md-4">
+                  <div class="div-sombra div-hover">
+                     <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
+                     <p><a href="mailto:contacto@riartdigos.com">contacto@riartdigos.com</a></p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <!-- Caja de info de contacto -->
+               <div class="col-md-6">
+                  <p class="info-contacto">Se viches algo que che gustou e queres pedir orzamento ou contratarme como diseñador web freelance ou calquera outra área, para algún proxecto, ou quizais hai unha vacante na súa empresa e requiren de alguén coas miñas habilidades ou simplemente queres dicir ola e charlar sobre todo o relacionado co deseño ou internet; por favor non dubides en poñerte en contacto comigo polo método que prefiras.</p>
+
+                  <p class="info-contacto">Xa sexa enviando un email ao correo colocado arriba, contactando vía whatsapp ou incluso usando o formulario a continuación ou algunha rede social na que este presente.</p>
+
+                  <p class="info-contacto">En calquer caso, grazas polo seu tempo e por haber chegado ata aquí. Espero que che gustase o meu traballo.</p>
+               </div>
+               <div class="col-md-6">
+                  <img id="imagen-contacto" src="img/contacto.jpg" alt="Imagen de contacto" />
+               </div>
+               <!-- Formulario de contacto -->
+               <div class="col-md-12 form-contacto-fondo">
+                  <label class="label-2" for="formularioMensaxe" title="Contame os detalles do teu proxecto">Contame os detalles do teu proxecto:</label>
+                  <textarea class="input-mensaxe" aria-label="Mensaxe" placeholder="" id="formularioMensaxe" title="Contame os detalles do teu proxecto"></textarea>
+                  <label class="label-1" for="formularioEmail" title="Email de contacto para responderte:">Email de contacto para responderte:</label>
+                  <input class="input-correo" aria-label="Email" autocomplete="on" type="email" placeholder="" id="formularioEmail">
+                  <button class="botonpresuposto" aria-label="Enviar mensaxe">Presuposto gratis</button><div class="barra-carga"></div>
+                  <div class="mensaxeenviada"><img src="img/ok.svg" alt="Vector de confirmación OK." id="okImg" /><br><br>Mensaxe enviada correctamente.<br><br>Recibirás unha resposta ao teu correo.</div>
+                  <button class="cerrarcontacto" aria-label="Cerrar formulario">Cerrar</button>
+               </div>
+            </div>
+            <br>
+            <!-- Redes sociales -->
+            <div class="row">
+               <div class="col-md-12">
+                  <ul class="botones-red-social">
+                     <!-- GitHub -->
+                     <li><a href="index.html#" class="btn-social"><p class="oculto">Github</p><i class="fa fa-github"></i></a></li>
+                     <!-- Twitter -->
+                     <li><a href="index.html#" class="btn-social"><p class="oculto">Twitter</p><i class="fa fa-twitter"></i></a></li>
+                     <!-- Facebook -->
+                     <li><a href="index.html#" class="btn-social"><p class="oculto">Facebook</p><i class="fa fa-facebook"></i></a></li>
+                     <!-- Instagram -->
+                     <li><a href="index.html#" class="btn-social"><p class="oculto">Instagram</p><i class="fa fa-instagram"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+
+                                                                                <!-- ==========================
+                                                                                    FIN SECCIÓN "CONTACTO"
+                                                                                =========================== -->
+                                                                                <!-- ==========================
+                                                                                      SECCIÓN "FOOTER"
+                                                                                =========================== -->
+
+      <footer>
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 texto-centrado">
+                  <p>Todos os dereitos reservados. &copy; 2018 <a href="http://www.riartdigos.com">Riartdigos</a>
+               </div>
+            </div>
+            <div class="container">
+              <span class="txt anim-text-flow">www.riartdigos.com</span>
+            </div>
+         </div>
+      </footer>
+                                                                                <!-- ==========================
+                                                                                      FIN SECCIÓN "FOOTER"
+                                                                                =========================== -->  
+
+                                                                                <!-- ==========================
+                                                                            C A R G A       D E       S C R I P T S
+                                                                                =========================== -->
+      <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <!-- SmoothScroll -->           
+      <script src="assets/smoothscroll/smoothscroll.js"></script>
+      <!-- Bootstrap -->
+      <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <!-- Waypoints -->
+      <script src="js/waypoints.min.js"></script>
+      <!-- classie.js -->
+      <script src="js/classie.js"></script>
+      <!-- Modernizr -->
+      <script src="js/modernizr.js"></script>
+      <!-- Text Rotator -->
+      <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
+      <!-- Lightbox.js -->
+      <script src="assets/lightbox/js/lightbox.min.js"></script>
+      <!-- Archivos js propios de la página -->
+      <script src="js/main.js"></script>
+      <script src="js/script.js"></script>
+      
+                                                                                <!-- Configuración del texto rotante de la cabecera -->
+      <script>
+         $(".rotate").textrotator({
+           animation: "fade", // Colocamos una animación de fade.
+           separator: ",", // Definimos el separador que utilizaremos para separar las diferentes frases que saldrán. En este caso usaré comas.
+           speed: 2000 // Velocidad en milisegundos que tardará el cambio entre una frase y otra.
+         });
+      </script>
+   </body>
+</html>
